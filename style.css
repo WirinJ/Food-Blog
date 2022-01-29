@@ -1,0 +1,67 @@
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-bottom: 4px #000 solid;
+}
+
+
+#header button {
+    float: right;
+    margin-top: 40px;
+}
+
+.post {
+    margin-bottom: 70
+}
+
+.header {
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #eeedec;
+    width: 800px;
+    height: 250px;
+}
+
+img {
+    opacity: 0.4;
+    width: 800px;
+    height: 250px;
+    object-fit: cover;
+}
+
+h1 {
+    float: center;
+    font-size: 60px;
+    display: inline;
+}
+
+h2 {
+    text-decoration: underline overline;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+span.right {
+    float: right;
+    color: #B0B0B0;
+    margin-bottom: 0px;
+}
+
+
+span.details {
+    margin: 2px;
+    color: #787878;
+    font-size: 15px;
+    font-style: italic;
+    display: block;
+}
